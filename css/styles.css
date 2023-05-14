@@ -207,16 +207,25 @@ ol {
 }
 
 /*  section advantages */
-
-.advantages-icons{
+.icons-advantages-list {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 24px;
+
+}
+
+.advantages-icons {
+    width: 264px;
     height: 112px;
-    background-color: #f4f4fd; 
+    left: 0px;
+    top: 0px;
+    height: 112px;
+    background: #F4F4FD;
     border-radius: 4px;
     margin-bottom: 8px;
 }
+
 .menu-advantages {
     display: flex;
     gap: 24px;
@@ -266,6 +275,23 @@ ol {
 
 
 /*  section our team */
+.sm-team {
+    display: flex;
+    gap: 24px;
+}
+
+.sm-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: #4D5AE5;
+    border-radius: 50%;
+    margin-top: 8px;
+
+}
+
 .names {
     font-family: 'Roboto';
     font-style: normal;
@@ -322,7 +348,55 @@ ol {
 
 }
 
+/* companies */
+
+.customers-list {
+    display: flex;
+    gap: 24px;
+
+}
+
+.customers-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+    margin-bottom: 72px;
+}
+
+.icon-link {
+    display: flex;
+    width: 168px;
+    height: 88px;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    color: #8E8F99;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 /* footer */
+.sm-footer {
+    display: flex;
+    gap: 16px;
+    width: 208px;
+    height: 40px;
+}
+.sm-link:hover, .sm-link:focus {
+background: #31D0AA;
+}
+.sm-icon:hover, .sm-icon:focus {
+    background: #31D0AA;
+}
+
 .social-media {
     font-family: 'Roboto';
     font-style: normal;
@@ -382,6 +456,11 @@ ol {
     gap: 24px;
     margin-bottom: 72px;
 }
+.finger {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 
 .scroll-btn {
     font-family: "Roboto", sans-serif;
