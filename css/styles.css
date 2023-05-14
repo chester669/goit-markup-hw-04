@@ -1,0 +1,405 @@
+/* general */
+:root {
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family: 'Raleway', sans-serif;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+body {
+    font-family: var(--main-font-family);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF
+}
+
+img {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.section {
+    padding: 120px 0;
+}
+
+.container {
+    width: 1158px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px
+}
+
+/* header */
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+
+}
+
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+
+/* logo */
+.logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px
+}
+
+.logo-end {
+    color: #2e2f42;
+}
+
+/* navigation */
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 40px
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.menu-item {
+    padding-top: 24px;
+    padding-bottom: 24px
+}
+
+.menu-name {
+    color: #2E2F42;
+    padding: 24px 0;
+}
+
+.menu-name:hover,
+.menu-name:focus {
+    color: #404BBF;
+}
+
+/* contacts */
+
+.contacts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.contact-data {
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
+    color: #434455;
+
+}
+
+.data {
+    font-style: normal
+}
+
+.data-info:hover,
+.data-info:focus {
+    color: #404bbf
+}
+
+.data-info {
+    color: #434455;
+}
+
+
+/* hero */
+
+
+
+.hero {
+    padding: 188px 0;
+
+    background-color: #2e2f42;
+}
+
+.hero_title {
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 48px;
+}
+
+
+/* button */
+.order-btn {
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 1);
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    padding: 16px 32px;
+    border: none;
+    border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #404BBF;
+}
+
+/*  section advantages */
+
+.menu-advantages {
+    display: flex;
+    gap: 24px;
+}
+
+.advantages-list {
+    width: calc((100% - 72px) / 4);
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    margin-bottom: 8px;
+    text-align: start;
+}
+
+
+.advantages-description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: start;
+}
+
+/* about us section */
+.about-us {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
+.section-pictures {
+    padding-bottom: 120px
+}
+
+.pictures {
+    display: flex;
+    gap: 24px;
+}
+
+
+
+/*  section our team */
+.names {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+
+}
+
+.team-member {
+    display: flex;
+    gap: 24px;
+}
+
+.card-title {
+    padding: 32px 16px;
+
+}
+
+.team {
+    background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.names {
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+.description {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.members {
+    background-color: #F4F4FD;
+
+}
+
+/* footer */
+.main-footer {
+    background-color: #2e2f42;
+    padding: 100px 0;
+}
+
+.footer-logo {
+    font-family: var(--secondary-font-family);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.footer-description {
+    width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+
+}
+
+.footer-logo-end {
+    color: #f4f4fd
+}
+
+/* portfolio */
+.portfolio {
+    padding: 96px 0 120px
+}
+
+/* buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.scroll-btn {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #4d5ae5;
+    background-color: #F4F4FD;
+
+    cursor: pointer;
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+
+}
+
+.scroll-btn:hover,
+.scroll-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+    border: 1px solid transparent
+}
+
+/* pictures*/
+.portfolio-pictures {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.card-text {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.cards-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+
+.card-category {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
