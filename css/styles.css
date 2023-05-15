@@ -390,12 +390,7 @@ ol {
     width: 208px;
     height: 40px;
 }
-.sm-link:hover, .sm-link:focus {
-background: #31D0AA;
-}
-.sm-icon:hover, .sm-icon:focus {
-    background: #31D0AA;
-}
+
 
 .social-media {
     font-family: 'Roboto';
@@ -514,4 +509,19 @@ background: #31D0AA;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+/* test */
+/* customer */
+.icon-link:hover,.icon-link:focus {
+    border-color: #404BBF;
+}
+/* social media */
+.sm-link:hover, .sm-icon {
+    background-color: #31D0AA;
+
+}
+.sm-icon{
+   fill:  #4D5AE5;
+    ;
 }
