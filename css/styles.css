@@ -280,12 +280,9 @@ ol {
 
 .sm-link:hover,
 .sm-link:focus {
-    background-color: #404BBF;
+    background-color: #31D0AA;
 }
 
-.sm-icons {
-    fill: #F4F4FD;
-}
 
 /* icons */
 .sm-team {
@@ -440,21 +437,6 @@ ol {
     height: 40px;
 }
 
-.sm-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    widows: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #4d5ae5;
-}
-
-.sm-list:hover,
-.sm-list:focus {
-    background-color: #31D0AA;
-}
-
 .sm-icons {
     fill: #F4F4FD;
 }
@@ -478,8 +460,8 @@ ol {
 
 .sm-icons {
     display: flex;
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
 
 }
 
@@ -528,10 +510,11 @@ ol {
     border-radius: 4px;
 }
 
-.finger {
+.finger-icon {
     display: flex;
     flex-direction: row-reverse;
 }
+
 
 
 .scroll-btn {
