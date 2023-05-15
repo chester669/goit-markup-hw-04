@@ -288,7 +288,7 @@ ol {
     justify-content: center;
 }
 
-.sm {
+.sm-general {
     display: flex;
     justify-content: center;
     align-items: center;
