@@ -288,7 +288,7 @@ ol {
     justify-content: center;
 }
 
-.sm-link {
+.sm {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -298,6 +298,10 @@ ol {
     border-radius: 50%;
     margin-top: 8px;
 }
+.link-icon:hover,.link-icon:focus {
+    background-color: #404BBF;
+    
+    }
 
 .names {
     font-family: 'Roboto';
@@ -416,9 +420,9 @@ ol {
     display: flex;
     align-items: baseline;
 }
-.sm-link:hover,.sm-link:focus {
-background-color: #404BBF;
 
+.footer-icon:hover,.footer-icon:focus {
+    background-color: #31D0AA;
 }
 
 .footer-text {
@@ -580,17 +584,3 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
-/* test */
-
-/* social media */
-/* .sm-link:hover,
-.sm-icon {
-    background-color: #31D0AA;
-
-}
-
-.sm-icon {
-    fill: #4D5AE5;
-    ;
-} */
