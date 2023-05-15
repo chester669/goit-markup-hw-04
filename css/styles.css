@@ -278,10 +278,7 @@ ol {
 /*  section our team */
 /* hover focus */
 
-.sm-link:hover,
-.sm-link:focus {
-    background-color: #31D0AA;
-}
+
 
 
 /* icons */
@@ -300,7 +297,6 @@ ol {
     background: #4D5AE5;
     border-radius: 50%;
     margin-top: 8px;
-
 }
 
 .names {
@@ -421,7 +417,7 @@ ol {
     align-items: baseline;
 }
 .sm-link:hover,.sm-link:focus {
-background-color: #31D0AA;
+background-color: #404BBF;
 
 }
 
