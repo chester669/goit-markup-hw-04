@@ -216,10 +216,11 @@ ol {
 }
 
 .advantages-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 264px;
     height: 112px;
-    left: 0px;
-    top: 0px;
     height: 112px;
     background: #F4F4FD;
     border-radius: 4px;
@@ -275,9 +276,19 @@ ol {
 
 
 /*  section our team */
+/* hover focus */
+
+.sm-link:hover,.sm-link:focus {
+    background-color: #404BBF;
+}
+.sm-icons {
+    fill: #F4F4FD;
+}
+/* icons */
 .sm-team {
     display: flex;
     gap: 24px;
+    justify-content: center; 
 }
 
 .sm-link {
@@ -310,7 +321,7 @@ ol {
 }
 
 .card-title {
-    padding: 32px 16px;
+    padding: 32px 0
 
 }
 
@@ -318,8 +329,10 @@ ol {
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
-}
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 
+}
+/* icons */
 .names {
     text-align: center;
     margin-bottom: 8px;
@@ -350,6 +363,21 @@ ol {
 
 /* companies */
 
+/* hover focus */
+
+.icon-link:hover,.icon-link:focus {
+    color: #404bbf;
+}
+.icon-link:hover,
+.icon-link:focus {
+    border-color: #404BBF;
+}
+
+.icons {
+    fill: currentColor;
+}
+/* hover focus */
+
 .customers-list {
     display: flex;
     gap: 24px;
@@ -361,7 +389,7 @@ ol {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1px;
+    line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
@@ -451,6 +479,7 @@ ol {
     gap: 24px;
     margin-bottom: 72px;
 }
+
 .finger {
     display: flex;
     flex-direction: row-reverse;
@@ -513,15 +542,19 @@ ol {
 
 /* test */
 /* customer */
-.icon-link:hover,.icon-link:focus {
+ .icon-link:hover,
+.icon-link:focus {
     border-color: #404BBF;
 }
+
 /* social media */
-.sm-link:hover, .sm-icon {
+/* .sm-link:hover,
+.sm-icon {
     background-color: #31D0AA;
 
 }
-.sm-icon{
-   fill:  #4D5AE5;
+
+.sm-icon {
+    fill: #4D5AE5;
     ;
-}
+} */
